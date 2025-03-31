@@ -142,12 +142,11 @@
 6. Use the user's configured `sans` font-variation-settings by default.
 7. Disable tap highlights on iOS
 */
-
 html,
 :host {
   line-height: 1.5;
   /* 1 */
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; /* Use this instead of -webkit-text-size-adjust */
   /* 2 */
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -159,6 +158,9 @@ html,
   font-variation-settings: normal;
   -webkit-tap-highlight-color: transparent;
 }
+
+
+
 
 
 /*
