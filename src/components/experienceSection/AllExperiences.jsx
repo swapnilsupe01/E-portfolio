@@ -5,34 +5,33 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "2nd Year Student",
-    company: "BVIT College",
-    date: "2022 - Present",
+    job: "SSC amd HSC Eduction",
+    company: "Saraswati Vidyalaya School and Junior College",
+    date: "2020",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Participated in the school and college cricket team.",
+      "Participated in elementary art competitions.",
+      "Participated in an abacus competition.",
     ],
   },
   {
-    job: "3nd Year Student",
+    job: "Diploma in Computer Engineering",
     company: "BVIT College",
-    date: "2023 - Present",
+    date: "2022 - 2024",
     responsibilities: [
-     "Design, develop, and maintain scalable backend services and APIs.",
-  "Optimize application performance and database queries for efficiency.",
-  "Implement authentication, authorization.",
+     "Participating in a research paper competition at Bharati Vidyapeeth, Pune.",
+     "A state-level paper competition of Fr. Angel.",
+     "Successfully Completed the NPTEL Java exam with an 87% score.",
     ],
   },
   {
-    job: "2nd Year Student",
+    job: "Degree in Computer Engineering",
     company: "VIT College",
     date: "2024 - Present",
     responsibilities: [
-      "Teaching Mobile Development, React and TailwindCSS.",
+      "Learning Mobile Development, React and TailwindCSS.",
       "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies & Mobile Developement.",
+      "Assisting fellow students in learning web development and mobile development technologies.",
     ],
   },
 ];
