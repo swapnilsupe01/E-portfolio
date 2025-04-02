@@ -1,7 +1,7 @@
 import React from "react";
 
 const HelperSection = () => {
-  return <div className="h-[100vh]"></div>;
+  return <div className="min-h-[0vh]"></div>;
 };
 
 export default HelperSection;
