@@ -7,7 +7,7 @@ const experiences = [
   {
     job: "SSC amd HSC Eduction",
     company: "Saraswati Vidyalaya School and Junior College",
-    date: "2020",
+    date: "2021",
     responsibilities: [
       "Participated in the school and college cricket team.",
       "Participated in elementary art competitions.",
