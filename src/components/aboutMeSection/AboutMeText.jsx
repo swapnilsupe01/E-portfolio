@@ -30,10 +30,9 @@
 
 // export default AboutMeText;
 
-
 import { Link } from "react-scroll";
 import { FaDownload } from "react-icons/fa"; // Import download icon
-
+import CV from "../../assets/Swapnil_Supe_CV.pdf"
 const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
@@ -63,15 +62,13 @@ const AboutMeText = () => {
         </button>
 
         {/* Download CV Button with Icon */}
-        <button className="bg-orange text-white rounded-full py-2 px-5 text-lg flex gap-2 items-center hover:bg-orange/80 transition-all duration-500 cursor-pointer">
-          <a
-            href="public/Swapnil_Supe_Resume.pdf" // Make sure the file is placed in the /public folder
-            download="Swapnil_Supe_CV.pdf"
-            className="flex items-center gap-2"
-          >
-            <FaDownload size={20} /> Download CV
-          </a>
-        </button>
+        <a
+          href={CV}
+          download="Swapnil_Supe_CV.pdf"
+          className="bg-orange text-white rounded-full py-2 px-5 text-lg flex gap-2 items-center hover:bg-orange/80 transition-all duration-500 cursor-pointer"
+        >
+          <FaDownload size={20} /> Download CV
+        </a>
       </div>
     </div>
   );
