@@ -13,11 +13,12 @@ const projects = [
   },
   {
     name: "Math Game",
-    year: "Sept2022",
+    year: "Sept 2022",
     align: "left",
     image: "../../images/website-img-2.webp",
-    link: "#",
-  },
+    link: "https://github.com/swapnilsupe01/Math-Game-",  // GitHub Repository URL
+},
+
   {
     name: "Twinote",
     year: "Jan2023",
