@@ -12,7 +12,7 @@ const projects = [
     link: "#",
   },
   {
-    name: "Color Maker App",
+    name: "Maths Game",
     year: "Sept2022",
     align: "left",
     image: "../../images/website-img-2.webp",

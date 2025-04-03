@@ -5,6 +5,27 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
+    job: "Degree in Computer Engineering",
+    company: "Vidyalankar Institute of Technology",
+    date: "2024 - Present",
+    responsibilities: [
+      "Learning Mobile Development, React and TailwindCSS.",
+      "Participating in preparing course materials.",
+    ],
+  },
+
+  {
+    job: "Diploma in Computer Engineering",
+    company: "BVIT College",
+    date: "2022 - 2024",
+    responsibilities: [
+     "Participating in a research paper competition at Bharati Vidyapeeth, Pune.",
+     "A state-level paper competition of Fr. Angel.",
+     "I got 84% in diploma.",
+    ],
+  },
+  
+  {
     job: "SSC amd HSC Eduction",
     company: "Saraswati Vidyalaya School and Junior College",
     date: "2021",
@@ -14,26 +35,7 @@ const experiences = [
       "Participated in an abacus competition.",
     ],
   },
-  {
-    job: "Diploma in Computer Engineering",
-    company: "BVIT College",
-    date: "2022 - 2024",
-    responsibilities: [
-     "Participating in a research paper competition at Bharati Vidyapeeth, Pune.",
-     "A state-level paper competition of Fr. Angel.",
-     "Successfully Completed the NPTEL Java exam with an 87% score.",
-    ],
-  },
-  {
-    job: "Degree in Computer Engineering",
-    company: "VIT College",
-    date: "2024 - Present",
-    responsibilities: [
-      "Learning Mobile Development, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Assisting fellow students in learning web development and mobile development technologies.",
-    ],
-  },
+  
 ];
 
 const AllExperiences = () => {
