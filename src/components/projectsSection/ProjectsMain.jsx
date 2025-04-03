@@ -12,7 +12,7 @@ const projects = [
     link: "#",
   },
   {
-    name: "Maths Game",
+    name: "Math Game",
     year: "Sept2022",
     align: "left",
     image: "../../images/website-img-2.webp",
