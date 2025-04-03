@@ -108,18 +108,18 @@ const projects = [
     link: "#",
   },
   {
-    name: "Blood Bank",
+    name: "Blood Bank Application",
     year: "Nov2024",
     align: "left",
     image: "../../images/Bloodimage.jpg",
-    link: "#",
+    link: "https://github.com/swapnilsupe01/blood_bank_application",
   },
   {
-    name: "Pc Prodify",
+    name: "Techy Store",
     year: "Jan2025",
     align: "Right",
     image: "../../images/website-img-4.jpg",
-    link: "#",
+    link: "https://github.com/swapnilsupe01/techy_store",
   },
   {
     name: "StegaCrypt",
