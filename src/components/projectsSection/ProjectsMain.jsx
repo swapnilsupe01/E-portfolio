@@ -87,25 +87,25 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Study Link",
+    name: "Exploading Ball Game",
     year: "Mar2022",
     align: "right",
-    image: "../../images/website-img-1.jpg",
-    link: "#",
+    image: "../../images/exploadingball.JPG",
+    link: "https://exploading-ball-game.vercel.app/",
   },
   {
     name: "Math Game",
     year: "Sept 2022",
     align: "left",
-    image: "../../images/website-img-2.webp",
+    image: "../../images/Maths Game.JPG",
     link: "https://github.com/swapnilsupe01/Math-Game-/tree/master", // ✅ Corrected GitHub Link
   },
   {
-    name: "Twinote",
+    name: "Collision Simulator",
     year: "Jan2023",
     align: "right",
-    image: "../../images/Twinote.jpg",
-    link: "#",
+    image: "../../images/collision-game.JPG",
+    link: "https://1-d-collision-simulator.vercel.app/",
   },
   {
     name: "Blood Bank Application",
