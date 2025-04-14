@@ -122,11 +122,11 @@ const projects = [
     link: "https://github.com/swapnilsupe01/techy_store",
   },
   {
-    name: "StegaCrypt",
+    name: "Building Parallel File Encryptor",
     year: "March2025",
     align: "left",
     image: "../../images/encryption-1.jpg",
-    link: "#",
+    link: "https://github.com/swapnilsupe01/Building-Parallel-File-Encryptor",
   },
 ];
 
