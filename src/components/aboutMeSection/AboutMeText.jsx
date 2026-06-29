@@ -40,8 +40,7 @@ const AboutMeText = () => {
       <p>
         I’m Swapnil Supe, a web developer with a passion for teaching
         and coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies. I
-        also run an Import-Export Business and I love moving toward success in
+        students build real-world projects and master modern web technologies.I love moving toward success in
         tech and business. Outside of coding, I enjoy playing cricket and
         football.
       </p>

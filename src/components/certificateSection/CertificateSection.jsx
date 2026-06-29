@@ -22,6 +22,14 @@ const CertificateSection = () => {
           title="Sql- Island Certifiacte" 
           pdf="/certificates/Certificate_SQL-Island.pdf" 
         />
+        <CertificateCard 
+          title="C-DAC Certificate" 
+          pdf="/certificates/C-DAC PDF.pdf" 
+        />
+        <CertificateCard
+          title="BIGISO Certificate"
+          pdf="/certificates/Swapnil_Internship_Certificate.pdf"
+        />
       </div>
     </div>
   );

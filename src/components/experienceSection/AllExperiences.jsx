@@ -19,18 +19,26 @@ const experiences = [
     company: "BVIT College",
     date: "2022 - 2024",
     responsibilities: [
-     "Participating in a research paper competition at Bharati Vidyapeeth, Pune.",
-     "A state-level paper competition of Fr. Angel.",
-     "I got 84% in diploma.",
+     "Cleared NPTEL Java exam with a score of 67%.",
+     "I scored 84% in my diploma.",
     ],
   },
   
   {
-    job: "SSC amd HSC Eduction",
-    company: "Saraswati Vidyalaya School and Junior College",
-    date: "2021",
+    job: "HSC Eduction",
+    company: "Kelkar College Mulund",
+    date: "2015",
     responsibilities: [
-      "Participated in the school and college cricket team.",
+      "Participated in the college cricket team.",
+    ],
+  },
+
+  {
+    job: "SSC Eduction",
+    company: "Saraswati Vidyalaya School ",
+    date: "2013",
+    responsibilities: [
+      "articipated in the different games in the school and cricket team",
       "Participated in elementary art competitions.",
       "Participated in an abacus competition.",
     ],
@@ -45,7 +53,7 @@ const AllExperiences = () => {
         return (
           <>
             <SingleExperience key={index} experience={experience} />
-            {index < 2 ? (
+            {index < 3 ? (
               <motion.div
                 variants={fadeIn("right", 0)}
                 initial="hidden"
